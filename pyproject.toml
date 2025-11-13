@@ -1,5 +1,5 @@
 [project]
-name = "royal-mail-address-codegen"
+name = "royal-mail-address"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
