@@ -20,15 +20,15 @@ from datetime import date
 from pydantic import Field, StrictStr
 from typing import List, Optional
 from typing_extensions import Annotated
-from royal_mail_address_codegen.models.address_find_request_def import AddressFindRequestDef
-from royal_mail_address_codegen.models.address_record_def import AddressRecordDef
-from royal_mail_address_codegen.models.address_verify_req_respdef import AddressVerifyReqRespdef
-from royal_mail_address_codegen.models.address_verify_request_def import AddressVerifyRequestDef
-from royal_mail_address_codegen.models.addresses_def import AddressesDef
+from royal_mail_address.models.address_find_request_def import AddressFindRequestDef
+from royal_mail_address.models.address_record_def import AddressRecordDef
+from royal_mail_address.models.address_verify_req_respdef import AddressVerifyReqRespdef
+from royal_mail_address.models.address_verify_request_def import AddressVerifyRequestDef
+from royal_mail_address.models.addresses_def import AddressesDef
 
-from royal_mail_address_codegen.api_client import ApiClient, RequestSerialized
-from royal_mail_address_codegen.api_response import ApiResponse
-from royal_mail_address_codegen.rest import RESTResponseType
+from royal_mail_address.api_client import ApiClient, RequestSerialized
+from royal_mail_address.api_response import ApiResponse
+from royal_mail_address.rest import RESTResponseType
 
 
 class DefaultApi:

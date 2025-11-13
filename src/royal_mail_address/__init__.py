@@ -46,33 +46,33 @@ __all__ = [
 ]
 
 # import apis into sdk package
-from royal_mail_address_codegen.api.default_api import DefaultApi as DefaultApi
+from royal_mail_address.api.default_api import DefaultApi as DefaultApi
 
 # import ApiClient
-from royal_mail_address_codegen.api_response import ApiResponse as ApiResponse
-from royal_mail_address_codegen.api_client import ApiClient as ApiClient
-from royal_mail_address_codegen.configuration import Configuration as Configuration
-from royal_mail_address_codegen.exceptions import OpenApiException as OpenApiException
-from royal_mail_address_codegen.exceptions import ApiTypeError as ApiTypeError
-from royal_mail_address_codegen.exceptions import ApiValueError as ApiValueError
-from royal_mail_address_codegen.exceptions import ApiKeyError as ApiKeyError
-from royal_mail_address_codegen.exceptions import ApiAttributeError as ApiAttributeError
-from royal_mail_address_codegen.exceptions import ApiException as ApiException
+from royal_mail_address.api_response import ApiResponse as ApiResponse
+from royal_mail_address.api_client import ApiClient as ApiClient
+from royal_mail_address.configuration import Configuration as Configuration
+from royal_mail_address.exceptions import OpenApiException as OpenApiException
+from royal_mail_address.exceptions import ApiTypeError as ApiTypeError
+from royal_mail_address.exceptions import ApiValueError as ApiValueError
+from royal_mail_address.exceptions import ApiKeyError as ApiKeyError
+from royal_mail_address.exceptions import ApiAttributeError as ApiAttributeError
+from royal_mail_address.exceptions import ApiException as ApiException
 
 # import models into sdk package
-from royal_mail_address_codegen.models.address_find_request_def import AddressFindRequestDef as AddressFindRequestDef
-from royal_mail_address_codegen.models.address_record_def import AddressRecordDef as AddressRecordDef
-from royal_mail_address_codegen.models.address_summary_def import AddressSummaryDef as AddressSummaryDef
-from royal_mail_address_codegen.models.address_verify_req_respdef import AddressVerifyReqRespdef as AddressVerifyReqRespdef
-from royal_mail_address_codegen.models.address_verify_request_def import AddressVerifyRequestDef as AddressVerifyRequestDef
-from royal_mail_address_codegen.models.address_verifydef import AddressVerifydef as AddressVerifydef
-from royal_mail_address_codegen.models.addresses_def import AddressesDef as AddressesDef
-from royal_mail_address_codegen.models.error_response import ErrorResponse as ErrorResponse
-from royal_mail_address_codegen.models.errors_def import ErrorsDef as ErrorsDef
-from royal_mail_address_codegen.models.model400 import Model400 as Model400
-from royal_mail_address_codegen.models.model401 import Model401 as Model401
-from royal_mail_address_codegen.models.model404 import Model404 as Model404
-from royal_mail_address_codegen.models.model405 import Model405 as Model405
-from royal_mail_address_codegen.models.model500 import Model500 as Model500
-from royal_mail_address_codegen.models.model503 import Model503 as Model503
+from royal_mail_address.models.address_find_request_def import AddressFindRequestDef as AddressFindRequestDef
+from royal_mail_address.models.address_record_def import AddressRecordDef as AddressRecordDef
+from royal_mail_address.models.address_summary_def import AddressSummaryDef as AddressSummaryDef
+from royal_mail_address.models.address_verify_req_respdef import AddressVerifyReqRespdef as AddressVerifyReqRespdef
+from royal_mail_address.models.address_verify_request_def import AddressVerifyRequestDef as AddressVerifyRequestDef
+from royal_mail_address.models.address_verifydef import AddressVerifydef as AddressVerifydef
+from royal_mail_address.models.addresses_def import AddressesDef as AddressesDef
+from royal_mail_address.models.error_response import ErrorResponse as ErrorResponse
+from royal_mail_address.models.errors_def import ErrorsDef as ErrorsDef
+from royal_mail_address.models.model400 import Model400 as Model400
+from royal_mail_address.models.model401 import Model401 as Model401
+from royal_mail_address.models.model404 import Model404 as Model404
+from royal_mail_address.models.model405 import Model405 as Model405
+from royal_mail_address.models.model500 import Model500 as Model500
+from royal_mail_address.models.model503 import Model503 as Model503
 

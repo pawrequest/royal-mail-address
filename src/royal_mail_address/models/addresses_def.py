@@ -19,7 +19,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from royal_mail_address_codegen.models.address_summary_def import AddressSummaryDef
+from royal_mail_address.models.address_summary_def import AddressSummaryDef
 from typing import Optional, Set
 from typing_extensions import Self
 

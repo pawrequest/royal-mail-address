@@ -19,7 +19,7 @@ import ssl
 
 import urllib3
 
-from royal_mail_address_codegen.exceptions import ApiException, ApiValueError
+from royal_mail_address.exceptions import ApiException, ApiValueError
 
 SUPPORTED_SOCKS_PROXIES = {"socks5", "socks5h", "socks4", "socks4a"}
 RESTResponseType = urllib3.HTTPResponse

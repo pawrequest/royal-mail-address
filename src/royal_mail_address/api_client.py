@@ -27,11 +27,11 @@ from urllib.parse import quote
 from typing import Tuple, Optional, List, Dict, Union
 from pydantic import SecretStr
 
-from royal_mail_address_codegen.configuration import Configuration
-from royal_mail_address_codegen.api_response import ApiResponse, T as ApiResponseT
-import royal_mail_address_codegen.models
-from royal_mail_address_codegen import rest
-from royal_mail_address_codegen.exceptions import (
+from royal_mail_address.configuration import Configuration
+from royal_mail_address.api_response import ApiResponse, T as ApiResponseT
+import royal_mail_address.models
+from royal_mail_address import rest
+from royal_mail_address.exceptions import (
     ApiValueError,
     ApiException,
     BadRequestException,
@@ -456,7 +456,7 @@ class ApiClient:
             if klass in self.NATIVE_TYPES_MAPPING:
                 klass = self.NATIVE_TYPES_MAPPING[klass]
             else:
-                klass = getattr(royal_mail_address_codegen.models, klass)
+                klass = getattr(royal_mail_address.models, klass)
 
         if klass in self.PRIMITIVE_TYPES:
             return self.__deserialize_primitive(data, klass)

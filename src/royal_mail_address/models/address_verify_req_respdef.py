@@ -20,7 +20,7 @@ import json
 from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List, Optional
 from typing_extensions import Annotated
-from royal_mail_address_codegen.models.address_verifydef import AddressVerifydef
+from royal_mail_address.models.address_verifydef import AddressVerifydef
 from typing import Optional, Set
 from typing_extensions import Self
 

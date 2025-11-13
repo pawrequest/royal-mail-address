@@ -13,19 +13,19 @@
 """  # noqa: E501
 
 # import models into model package
-from royal_mail_address_codegen.models.address_find_request_def import AddressFindRequestDef
-from royal_mail_address_codegen.models.address_record_def import AddressRecordDef
-from royal_mail_address_codegen.models.address_summary_def import AddressSummaryDef
-from royal_mail_address_codegen.models.address_verify_req_respdef import AddressVerifyReqRespdef
-from royal_mail_address_codegen.models.address_verify_request_def import AddressVerifyRequestDef
-from royal_mail_address_codegen.models.address_verifydef import AddressVerifydef
-from royal_mail_address_codegen.models.addresses_def import AddressesDef
-from royal_mail_address_codegen.models.error_response import ErrorResponse
-from royal_mail_address_codegen.models.errors_def import ErrorsDef
-from royal_mail_address_codegen.models.model400 import Model400
-from royal_mail_address_codegen.models.model401 import Model401
-from royal_mail_address_codegen.models.model404 import Model404
-from royal_mail_address_codegen.models.model405 import Model405
-from royal_mail_address_codegen.models.model500 import Model500
-from royal_mail_address_codegen.models.model503 import Model503
+from royal_mail_address.models.address_find_request_def import AddressFindRequestDef
+from royal_mail_address.models.address_record_def import AddressRecordDef
+from royal_mail_address.models.address_summary_def import AddressSummaryDef
+from royal_mail_address.models.address_verify_req_respdef import AddressVerifyReqRespdef
+from royal_mail_address.models.address_verify_request_def import AddressVerifyRequestDef
+from royal_mail_address.models.address_verifydef import AddressVerifydef
+from royal_mail_address.models.addresses_def import AddressesDef
+from royal_mail_address.models.error_response import ErrorResponse
+from royal_mail_address.models.errors_def import ErrorsDef
+from royal_mail_address.models.model400 import Model400
+from royal_mail_address.models.model401 import Model401
+from royal_mail_address.models.model404 import Model404
+from royal_mail_address.models.model405 import Model405
+from royal_mail_address.models.model500 import Model500
+from royal_mail_address.models.model503 import Model503
 
